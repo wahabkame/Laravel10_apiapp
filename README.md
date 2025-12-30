@@ -32,9 +32,9 @@ you have to modify some code :
   write  in the beginning of the page :
   ``` Laravel
   use laravel\Passport\Passport
-  ``` 
-``` Laravel
+  ```
 then modify :
+``` Laravel
  Protected $policies=[ 'App\Models=>' ']
  ``` 
 
